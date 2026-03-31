@@ -1,7 +1,7 @@
 :root {
   --nav-bg: #111111;       
   --active-teks: #ffffff;
-  --nav-links: #C8F135;    
+  --nav-links: #519674;    
   --heading-text: #ffffff; 
   --body-text: #ffffff;   
   --small-text: #999999;   
@@ -286,7 +286,7 @@ main {
 }
 .project-cards:hover {
   transform: translateY(-1px);
-  outline: 0.5px solid #C8F135;
+  outline: 0.5px solid #519674;
   outline-offset: -1px;
 }
 .project-thumb {
@@ -309,8 +309,8 @@ main {
 }
 .tag {
   background: transparent;
-  border: 1.5px solid #C8F135;
-  color: #C8F135;
+  border: 1.5px solid #519674;
+  color: #519674;
   padding: 5px 12px;
   font-weight: 600;
   border-radius: 6px;
@@ -413,7 +413,7 @@ main {
   box-sizing: border-box;
   padding: 12px 5px;
   background: rgba(255, 255, 255, 0.05); 
-  border: 1.5px solid rgba(200, 241, 53, 0.3); 
+  border: 1.5px solid rgba(81, 150, 116, 0.3); 
   border-radius: 8px;
   color: var(--nav-links);
   font-family: inherit;
@@ -426,8 +426,8 @@ main {
 .form-grup textarea:focus {
   outline: none;
   background: rgba(255, 255, 255, 0.08);
-  border-color: #C8F135; 
-  box-shadow: 0 0 10px rgba(200, 241, 53, 0.2);
+  border-color: #519674; 
+  box-shadow: 0 0 10px rgba(81, 150, 116, 0.2);
 }
 
 
@@ -438,8 +438,8 @@ main {
 
 .btn-submit {
   padding: 15px;
-  background-color: #C8F135; 
-  color: #111111; 
+  background-color: #519674; 
+  color: #EDE7E0; 
   border: none;
   border-radius: 8px;
   font-weight: 700;
@@ -452,16 +452,16 @@ main {
 }
 
 .btn-submit:hover {
-  background-color: #aace1a;
+  background-color: #3d7a5a;
   transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(200, 241, 53, 0.3);
+  box-shadow: 0 5px 15px rgba(81, 150, 116, 0.3);
 }
 .footer {
-  background: var(--nav-bg);
+  background: var(--second-bg);
   color: var(--nav-links);
   display: flex;
   justify-content: space-between;
-  padding: 20px 60px;
+  padding: 30px 60px;
   font-size: 20px;
   font-weight: 500;
 }
